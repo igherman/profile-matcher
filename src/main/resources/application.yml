@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      database: matcher
+      host: localhost
+      port: 27017
+      username: root
+      password: password
+      authentication-database: admin
+
+
+logging:
+  level:
+    root: info
+    org.springframework.data: debug
+    org.apache.http: debug
+    org.springframework.web.client.RestTemplate: debug
